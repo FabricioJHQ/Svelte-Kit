@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Content from '../libs/Content.svelte';
+</script>
+
+<div class="home">
+	<Content />
+</div>
+
+<style>
+	.home {
+		width: 100%;
+		height: 100vh;
+		display: grid;
+		place-items: center;
+	}
+</style>
