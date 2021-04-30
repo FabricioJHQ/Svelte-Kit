@@ -1,24 +1,22 @@
-# create-svelte
+# Svelte Kit Boilerplate
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Un template para comenzar lo más rápido con Svelte-kit. Si no conoce sobre Svelte-Kit puede leer su documentación [`aqui`](https://kit.svelte.dev/docs);
 
-## Creating a project
+## Clonando el repositorio
 
-If you're seeing this, you've probably already done this step. Congrats!
+Para utilizar el template tan solo debe de copiar el siguiente código que clona el repositorio
 
 ```bash
 # create a new project in the current directory
-npm init svelte@next
+git clone https://github.com/FabricioJHQ/Svelte-Kit
 
 # create a new project in my-app
-npm init svelte@next my-app
+git clone https://github.com/FabricioJHQ/Svelte-Kit my-app
 ```
 
-> Note: the `@next` is temporary
+## Desarrollo
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Luego de clonar e instalar las respectivas dependencias, puede comenzar a editar los archivos y ver lo cambios con los siguientes comandos.
 
 ```bash
 npm run dev
@@ -27,12 +25,10 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## Build
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+Después de crear su aplicación listo para producción, insntale un [adapter](https://kit.svelte.dev/docs#adapters). Compila su aplicación con el siguiente comando.
 
 ```bash
 npm run build
 ```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
